@@ -271,8 +271,8 @@ background-size: contain;
 
     /* hero section media queries start */
     .hero-section p{
-        margin-left: 3rem;
-        margin-top: 8rem;
+        margin-left: 5rem;
+        margin-top: 16rem;
         height: 5rem;
         font-size: 1.7rem;
     
@@ -280,7 +280,7 @@ background-size: contain;
   
     .search-bar {
         position: absolute;
-        top: 20%;
+        top: 35%;
         /* left: 50%;
         translate: -50%; */
         width: 36rem;
