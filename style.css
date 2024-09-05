@@ -271,16 +271,17 @@ background-size: contain;
 
     /* hero section media queries start */
     .hero-section p{
-        margin-left: 5rem;
-        margin-top: 16rem;
+        margin-left: 2rem;
+        margin-top: 13rem;
         height: 5rem;
         font-size: 1.7rem;
     
     }
   
+
     .search-bar {
         position: absolute;
-        top: 35%;
+        top: 30%;
         /* left: 50%;
         translate: -50%; */
         width: 36rem;
@@ -288,6 +289,10 @@ background-size: contain;
         border-radius: 50px;
         align-items: center;
         background-color: var(--font-color-primary);
+    }
+    .dropdown{
+        width: 11rem;
+        
     }
     /* hero section media queries end */
 
