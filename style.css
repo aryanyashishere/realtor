@@ -205,7 +205,15 @@ background-size: contain;
 
 
 
-@media  screen and (max-width: 768px)  {
+@media (max-width: 768px)  {
+
+    body {
+
+        background-image: url("https://wallpapercave.com/wp/wp4110653.jpg");
+    /* background-repeat: no-repeat; */
+   
+    
+    }
     /* nAVbar section start responsiveness */
 
     .p-tag {
@@ -263,10 +271,10 @@ background-size: contain;
 
     /* hero section media queries start */
     .hero-section p{
-        margin-left: 7rem;
+        margin-left: 3rem;
         margin-top: 8rem;
         height: 5rem;
-        font-size: 3.2rem;
+        font-size: 1.7rem;
     
     }
   
@@ -275,7 +283,7 @@ background-size: contain;
         top: 20%;
         /* left: 50%;
         translate: -50%; */
-        width: 70rem;
+        width: 36rem;
         display: flex;
         border-radius: 50px;
         align-items: center;
