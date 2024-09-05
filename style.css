@@ -50,6 +50,14 @@ background-size: contain;
     display: none;
 }
 
+#hamcross{
+    display: none;
+}
+.off-screen-menu {
+    display: none;
+}
+
+
 .p-tag {
     margin-left: 3rem;
     cursor: pointer;
@@ -219,9 +227,9 @@ background-size: contain;
     .p-tag {
        display:none;
     }
-    /* .realtor-p{
+    .realtor-p{
         margin-left: 1rem;
-    } */
+    }
     
     .nav-lists {
         display: none;
@@ -232,40 +240,39 @@ background-size: contain;
         margin-right: 3rem;
         font-size: 2.5rem;
     }
+    #hamcross{
+        /* display: block; */
+        margin-right: 3rem;
+        font-size: 2.5rem;
+        z-index: 1000;
+    }
 
-    /* .navbar {
-        max-width: 100%;
-        width: 100vw;
-    
-        border-top: 3.5px solid #c09256;
-        height: 5rem;
-        color: black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 1.56rem;
-        color: white;
-    
-    } */
-    /* .off-screen-menu {
+    .off-screen-menu {
         background-color: rgb(34, 37, 49);
         height: 100vh;
-        width: 100vw;
-        max-width: 100%;
+        width: 100%;
+        max-width: 450px;
         position: fixed;
         top: 0;
-        right: -450px;
-        display: flex;
+        /* right: -450px; */
+        /* display: flex; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 5rem;
+        font-size: 3rem;
         transition: .3s ease;
+        color: white  ;
+      
         
         }
-         */
+        .off-screen-menu ul {
+            list-style: none;
+        }
         
+        
+
+  
 
     
 

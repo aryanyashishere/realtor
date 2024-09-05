@@ -44,3 +44,28 @@ for(items of dropItems){
         input.placeholder = "Search " + e.target.innerText;
     })
 }
+
+const menuBtn = document.getElementById("hamburger");
+const crossBtn = document.getElementById("hamcross");
+const offscreen = document.getElementById("off-screen-menu");
+menuBtn.addEventListener("click", ()=>{
+    menuBtn.style.display = "none";
+    crossBtn.style.display = "inline";
+    offscreen.style.display = "flex";
+
+}
+)
+
+crossBtn.addEventListener("click", ()=>{
+    menuBtn.style.display = "inline";
+    crossBtn.style.display = "none";
+    offscreen.style.display = "none";
+
+}
+)
+
+
+
+
+
+
