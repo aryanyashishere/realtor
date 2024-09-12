@@ -21,13 +21,16 @@ html {
 
 body {
 
+    /* background-image: url("live.mp4"); */
     background-image: url("https://wallpapercave.com/wp/wp4110653.jpg");
+    /* background-image: url("hero-img-desk.PNG"); */
 background-repeat: no-repeat;
 background-size: contain;
 
 }
 .header{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
 }
@@ -84,16 +87,20 @@ background-size: contain;
 /* hero section start */
 .hero-section {
     width: 100vw;
-    height: 100vh;
-    display: flex;
+    height: 81vh;
+    /* display: flex; */
     
     color: var(--font-color-primary);
 }
 
 .hero-section p{
-    margin-left: 18rem;
-    margin-top: 15rem;    
-    height: 25rem;
+    /* margin-left: 18rem; */
+    /* display: block; */
+    text-align: center;
+    /* background-color: red; */
+    /* margin-top: 15rem;     */
+    margin: 18rem 0 auto auto  ;
+    height: 9rem;
     font-size: 5rem;
     font-weight: 700;
 
@@ -196,13 +203,88 @@ background-size: contain;
 
 /* explore section starts  */
 
-
 .explore-section {
     width: 100vw;
+    
     height: 100vh;
     background-color: rgb(8, 56, 95);
     color: white;
 }
+
+.lrmargin-explore-section{
+    max-width: 110rem;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    
+
+}
+
+.content-explore-section{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    background-color: yellow;
+    
+    height: 45rem;
+    
+
+
+}
+
+
+.dodibbe-wala-section-1{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 110rem; */
+
+    /* margin: .5rem; */
+    /* margin-left: 3rem; */
+    margin-bottom: .5rem;
+}
+
+.dodibbe-wala-section-2{
+    display: flex;
+    /* margin-left: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: .5rem; */
+}
+.dibba1{
+    width: 52rem;
+    height: 20rem;
+    background-color: rgb(22, 224, 214);
+    border-radius: 2rem;
+    margin:0  .5rem;
+}
+/* .dibba1{
+    width: 45rem;
+    height: 20rem;
+    background-color: rgb(18, 216, 183);
+    border-radius: 2rem;
+
+    margin: 0  2rem;
+}
+.dibba1{
+    width: 45rem;
+    height: 20rem;
+    background-color: rgb(21, 228, 211);
+    border-radius: 2rem;
+
+    margin: 0 2rem;
+}
+.dibba1{
+    width: 45rem;
+    height: 20rem;
+    background-color: rgb(16, 221, 187);
+    border-radius: 2rem;
+
+    margin: 0 2rem;
+} */
 
 
 
@@ -222,6 +304,7 @@ background-size: contain;
    
     
     }
+
     /* nAVbar section start responsiveness */
 
     .p-tag {
@@ -273,7 +356,13 @@ background-size: contain;
         
 
   
-
+        .hero-section {
+            /* width: 100vw; */
+            height: 29.2vh;
+            /* display: flex; */
+            
+            /* color: var(--font-color-primary); */
+        }
     
 
     /* hero section media queries start */
