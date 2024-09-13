@@ -207,27 +207,42 @@ background-size: contain;
     width: 100vw;
     
     height: 100vh;
-    background-color: rgb(8, 56, 95);
-    color: white;
+    background: rgb(255,255,255);background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(48,80,105,1) 10%, rgba(48,80,105,1) 50%, rgba(48,80,105,1) 90%, rgba(255,255,255,0) 100%);
 }
-
 .lrmargin-explore-section{
     max-width: 110rem;
     margin: 0 auto;
     height: 100vh;
-    background-color: white;
+    /* background-color: rgb(10, 54, 71); */
     
 
+}
+
+.explore-section-heading p{
+    text-align: left;
+    font-size: 3rem;
+    color: var(--font-color-primary);
+    font-weight: 800;
+}
+.explore-section-para p{
+    text-align: left;
+    font-size: 1.75rem;
+    color: var(--font-color-primary);
 }
 
 .content-explore-section{
     /* display: flex; */
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
-    background-color: yellow;
+
+
+    /* background-color: yellow; */
     
     height: 45rem;
-    
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+     */
 
 
 }
@@ -255,36 +270,84 @@ background-size: contain;
     /* margin-bottom: .5rem; */
 }
 .dibba1{
-    width: 52rem;
+    width: 54rem;
     height: 20rem;
-    background-color: rgb(22, 224, 214);
+    /* background-color: rgb(12, 26, 25); */
     border-radius: 2rem;
     margin:0  .5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* padding: 1rem; */
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("https://media.istockphoto.com/id/1087256254/photo/most-beautiful-neighborhood-street.jpg?s=612x612&w=0&k=20&c=x72kVEGv1iFoO0dHznF-8dsKuZVcoYsuwGNRvnBpnHk=");
+    background-size: 100% 100%;
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    
+    
 }
-/* .dibba1{
-    width: 45rem;
-    height: 20rem;
-    background-color: rgb(18, 216, 183);
-    border-radius: 2rem;
 
-    margin: 0  2rem;
+
+.dibba2{
+    width: 54rem;
+    height: 20rem;
+    /* background-color: rgb(12, 26, 25); */
+    border-radius: 2rem;
+    margin:0  .5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* padding: 1rem; */
+    background-image: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("school.jpg");
+    background-size: 100% 100%;
+    padding: 2.4rem 2.4rem 0 2.4rem;
+
+    
 }
-.dibba1{
-    width: 45rem;
+.dibba3{
+    width: 54rem;
     height: 20rem;
-    background-color: rgb(21, 228, 211);
+    /* background-color: rgb(12, 26, 25); */
     border-radius: 2rem;
+    margin:0  .5rem;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    /* padding: 1rem; */
+    background-image: linear-gradient(120deg, rgb(48 ,80 ,105,1) 0%, rgb(48 ,80 ,105,1) 31%,rgb(48, 80 ,105, 0.7) 52%, transparent 100%),url("buildings.jpg");
 
-    margin: 0 2rem;
+    background-size: 100% 100%;    padding: 2.4rem 2.4rem 0 2.4rem;
+
+    
 }
-.dibba1{
-    width: 45rem;
+.dibba4{
+    width: 54rem;
     height: 20rem;
-    background-color: rgb(16, 221, 187);
+    /* background-color: rgb(12, 26, 25); */
     border-radius: 2rem;
+    margin:0  .5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* padding: 1rem; */
+    background-image: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("https://facts.net/wp-content/uploads/2023/09/12-fascinating-facts-about-real-estate-agent-1695689539.jpg");
+    background-size: 100% 100%;    padding: 2.4rem 2.4rem 0 2.4rem;
 
-    margin: 0 2rem;
-} */
+    
+}
+
+.dibba-content{
+    height: 15rem;
+    width: 30rem;
+    /* background-color: black; */
+    color: var(--font-color-secondary);
+}
+
+.dibba-content-title {
+    font-size: 2rem;
+    color: var(--font-color-secondary);
+    text-align: left;
+    font-weight: 900;
+}
+.dibba-content-para{
+    font-size: 1.6rem;
+    text-align: justify;
+    word-spacing: .1rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
 
 
 
