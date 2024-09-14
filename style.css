@@ -324,7 +324,7 @@ background-size: contain;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* padding: 1rem; */
    
-    background-image:linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%), url("https://facts.net/wp-content/uploads/2023/09/12-fascinating-facts-about-real-estate-agent-1695689539.jpg");
+    background-image:linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%), url("https://www.homes.com/assets/images/113/tile-agent-search-d.jpg");
     background-size: 100% 100%;    padding: 2.4rem 2.4rem 0 2.4rem;
 
     
@@ -424,7 +424,7 @@ background-size: contain;
   
         .hero-section {
             /* width: 100vw; */
-            height: 29.2vh;
+            height: 21.68vh;
             /* display: flex; */
             
             /* color: var(--font-color-primary); */
@@ -461,6 +461,23 @@ background-size: contain;
 
 
     /* explore section  */
+    .explore-section{
+        background-color: rgba(48,80,105,1);
+        padding: 0 0 0 0.5rem;
+    }
+    
+.explore-section-heading p{
+    text-align: left;
+    font-size: 2rem;
+    color: var(--font-color-primary);
+    font-weight: 800;
+}
+.explore-section-para p{
+    text-align: left;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    color: var(--font-color-primary);
+}
 
     .dodibbe-wala-section-1{
        flex-direction: column;
@@ -470,5 +487,61 @@ background-size: contain;
     .dodibbe-wala-section-2{
         flex-direction: column;
     }
+    .dibba1{
+        width: 35rem;
+        padding: .7rem  0 .7rem .7rem;
+        margin-bottom: 0.5rem;
+        height: 12.5rem;
+        
+    }
+    .dibba2{
+        width: 35rem;
+        padding: .7rem 0 .7rem .7rem;
+    height: 12.5rem;
+}
+.dibba3{
+    width: 35rem;
+    padding: .7rem 0 .7rem.7rem;
+    margin-bottom: 0.5rem;
+    height: 12.5rem;
+    
+}
+.dibba4{
+    width: 35rem;
+    padding: .7rem 0 .7rem .7rem;
+    height: 12.5rem;
+        
+    }
+    .dibba-content{
+        height: 11rem;
+        width: 27rem;
+        /* background-color: black; */
+
+        
+        color: var(--font-color-secondary);
+
+    }
+    
+.dibba-content br{
+ display: none;   
+}
+    
+
+    .dibba-content-title {
+        font-size: 1.8rem;
+        color: var(--font-color-secondary);
+        text-align: left;
+        font-weight: 900;
+    }
+    .dibba-content-para{
+        font-size: 1.5rem;
+        text-align: left;
+        word-spacing: .1rem;
+        line-height: 2.5rem;
+        font-weight: 500;
+        width: 25rem;
+    }
+    
+    
 
 }
