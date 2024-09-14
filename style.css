@@ -277,7 +277,7 @@ background-size: contain;
     margin:0  .5rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* padding: 1rem; */
-    background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("https://media.istockphoto.com/id/1087256254/photo/most-beautiful-neighborhood-street.jpg?s=612x612&w=0&k=20&c=x72kVEGv1iFoO0dHznF-8dsKuZVcoYsuwGNRvnBpnHk=");
+    background-image: linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%),url("https://media.istockphoto.com/id/1087256254/photo/most-beautiful-neighborhood-street.jpg?s=612x612&w=0&k=20&c=x72kVEGv1iFoO0dHznF-8dsKuZVcoYsuwGNRvnBpnHk=");
     background-size: 100% 100%;
     padding: 2.4rem 2.4rem 0 2.4rem;
     
@@ -293,7 +293,8 @@ background-size: contain;
     margin:0  .5rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* padding: 1rem; */
-    background-image: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("school.jpg");
+    background-image: linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%),url("school.jpg");
+    /* background-image: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("school.jpg"); */
     background-size: 100% 100%;
     padding: 2.4rem 2.4rem 0 2.4rem;
 
@@ -307,7 +308,8 @@ background-size: contain;
     margin:0  .5rem;
     /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
     /* padding: 1rem; */
-    background-image: linear-gradient(120deg, rgb(48 ,80 ,105,1) 0%, rgb(48 ,80 ,105,1) 31%,rgb(48, 80 ,105, 0.7) 52%, transparent 100%),url("buildings.jpg");
+    background-image: linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%),url("buildings.jpg");
+    /* background-image: linear-gradient(120deg, rgb(48 ,80 ,105,1) 0%, rgb(48 ,80 ,105,1) 31%,rgb(48, 80 ,105, 0.7) 52%, transparent 100%),url("buildings.jpg"); */
 
     background-size: 100% 100%;    padding: 2.4rem 2.4rem 0 2.4rem;
 
@@ -321,7 +323,8 @@ background-size: contain;
     margin:0  .5rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* padding: 1rem; */
-    background-image: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 31%,rgba(255,255,255,1) 52%, transparent 100%),url("https://facts.net/wp-content/uploads/2023/09/12-fascinating-facts-about-real-estate-agent-1695689539.jpg");
+   
+    background-image:linear-gradient(300deg, #fff0, #fff3 35%,  #fffc 45%,#f3f4f6 60%), url("https://facts.net/wp-content/uploads/2023/09/12-fascinating-facts-about-real-estate-agent-1695689539.jpg");
     background-size: 100% 100%;    padding: 2.4rem 2.4rem 0 2.4rem;
 
     
