@@ -528,18 +528,19 @@ background-size: contain;
     
 
     .dibba-content-title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         color: var(--font-color-secondary);
         text-align: left;
         font-weight: 900;
     }
     .dibba-content-para{
-        font-size: 1.5rem;
+        margin-top: .3rem;
+        font-size: 1.1rem;
         text-align: left;
         word-spacing: .1rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
         font-weight: 500;
-        width: 25rem;
+        width: 21rem;
     }
     
     
