@@ -489,26 +489,26 @@ background-size: contain;
     }
     .dibba1{
         width: 35rem;
-        padding: .7rem  0 .7rem .7rem;
+        padding: 1.7rem  0 1.7rem 1.7rem;
         margin-bottom: 0.5rem;
         height: 12.5rem;
         
     }
     .dibba2{
         width: 35rem;
-        padding: .7rem 0 .7rem .7rem;
+        padding: 1.7rem 0 1.7rem 1.7rem;
     height: 12.5rem;
 }
 .dibba3{
     width: 35rem;
-    padding: .7rem 0 .7rem.7rem;
+    padding: 1.7rem 0 1.7rem1.7rem;
     margin-bottom: 0.5rem;
     height: 12.5rem;
     
 }
 .dibba4{
     width: 35rem;
-    padding: .7rem 0 .7rem .7rem;
+    padding: 1.7rem 0 1.7rem 1.7rem;
     height: 12.5rem;
         
     }
@@ -534,8 +534,9 @@ background-size: contain;
         font-weight: 900;
     }
     .dibba-content-para{
-        margin-top: .3rem;
-        font-size: 1.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .4rem;
+        font-size: 1.2rem;
         text-align: left;
         word-spacing: .1rem;
         line-height: 2rem;
