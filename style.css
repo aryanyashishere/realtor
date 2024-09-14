@@ -459,4 +459,16 @@ background-size: contain;
     }
     /* hero section media queries end */
 
+
+    /* explore section  */
+
+    .dodibbe-wala-section-1{
+       flex-direction: column;
+        margin-bottom: .5rem;
+    }
+
+    .dodibbe-wala-section-2{
+        flex-direction: column;
+    }
+
 }
