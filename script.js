@@ -1,4 +1,5 @@
 const navbar = document.getElementById("navbar-id");
+
     window.addEventListener("scroll", function (event) {
         var scroll = this.scrollY;
         if (scroll > 33) {
@@ -64,8 +65,37 @@ crossBtn.addEventListener("click", ()=>{
 }
 )
 
-
-
-
+new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+    
+    breakpoints:{
+        0:{
+            slidesPerView: 1
+        },
+        768:{
+            slidesPerView: 3
+        },
+        1024:{
+            slidesPerView: 3
+        }
+    }
+  });
 
 
