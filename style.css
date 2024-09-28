@@ -458,14 +458,14 @@ background-size: contain;
 }
 .box1-content{
     font-size: 1.1rem;
-
 }
 
 .box-2{
     background-image: url("https://imagescdn.homes.com/i2/onl21OsSLj992zTRTMBMtS1qiEkZAEUnatgkAumG_hg/116/golden-triangle-denver-co-neighborhoodphoto.jpg?p=1");
     background-size: cover;
     background-repeat: no-repeat;    border-radius: 10px;
-    position: relative;   
+    position: relative; 
+    overflow: hidden;  
      
     
     
@@ -479,8 +479,9 @@ background-size: contain;
     left: 0;
     right: 0;
     padding: 1rem;
-    /* background: rgba(0, 0, 0, 0.5);  */
-   background: linear-gradient(0deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0) 93%);
+    /* z-index: 1; */
+    background: rgba(0, 0, 0, 0.5); 
+   /* background: linear-gradient(0deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0) 93%); */
 
 }
 .box-heading{
@@ -496,7 +497,8 @@ background-size: contain;
     background-image: url("https://imagescdn.homes.com/i2/OUpVdopJK3U0Zczd3vi0MRQQA0d1A-5Hbl5ywA2E85k/116/uptown-denver-co-neighborhoodphoto.jpg?p=1");
     background-size: cover;
     background-repeat: no-repeat;    border-radius: 1rem;
-    position: relative;   
+    position: relative;     overflow: hidden;  
+  
 
 
 }
@@ -505,6 +507,7 @@ background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;    border-radius: 1rem;
     position: relative;   
+    overflow: hidden;  
 
 
 
@@ -514,7 +517,8 @@ background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;  
       border-radius: 1rem;
-    position: relative;   
+    position: relative;       overflow: hidden;  
+
 
 
 }
