@@ -223,9 +223,10 @@ background-size: contain;
 
 .explore-section-heading p{
     text-align: left;
-    font-size: 3rem;
+    font-size: 7rem;
+    font-family: "Montserrat";
     color: var(--font-color-primary);
-    font-weight: 800;
+    font-weight: 200;
 }
 .explore-section-para p{
     text-align: left;
@@ -543,10 +544,21 @@ background-size: contain;
 
 
 /* carousel sections starts  */
+.explore-section-carousel-first {
+    width: 100vw;
+    
+    height: 75vh;
+}
+
+.lrmargin-explore-section-carousel-first{
+    max-width: 110rem;
+    margin: 0 auto;
+    height: 75vh;
+}
 .slider-upper-text{
     font-size: 2.5rem;
     padding: 1.3rem;
-    color: white;
+    color: black;
     font-weight: 600;
     font-family: "Montserrat";
 }
@@ -606,6 +618,9 @@ background-size: contain;
     border-radius: .8rem;
     background: rgba(255,255,255,0.9) ;
     border: 1px solid rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0px 11px 24px -16px rgba(0,0,0,1);
+-moz-box-shadow: 0px 11px 24px -16px rgba(0,0,0,1);
+box-shadow: 0px 11px 24px -16px rgba(0,0,0,1);
     /* gap: 1rem; */
 
 }
@@ -797,17 +812,17 @@ background-size: contain;
         
     }
     .explore-section-heading{
-        margin: 0 2rem 0 2rem;
+        margin: 0 1rem 0 1rem;
     }
     .explore-section-para{
-        margin: 0 2rem 0 2rem;
+        margin: 0 1rem 2rem 1rem;
 
     }
 .explore-section-heading p{
     text-align: left;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--font-color-primary);
-    font-weight: 800;
+    font-weight: 500;
 }
 .explore-section-para p{
     text-align: left;
@@ -825,28 +840,28 @@ background-size: contain;
         flex-direction: column;
     }
     .dibba1{
-        width: 35rem;
-        padding: 1.7rem  0 1.7rem 1.7rem;
+        width: 33rem;
+        padding: 1.7rem 0 1.7rem 1.7rem;
         margin-bottom: 0.5rem;
-        height: 12.5rem;
+        height: 11.5rem;
         
     }
     .dibba2{
-        width: 35rem;
+        width: 33rem;
         padding: 1.7rem 0 1.7rem 1.7rem;
-    height: 12.5rem;
+        height: 11.5rem;
 }
 .dibba3{
-    width: 35rem;
-    padding: 1.7rem 0 1.7rem 1.7rem;
-    margin-bottom: 0.5rem;
-    height: 12.5rem;
+    width: 33rem;
+        padding: 1.7rem 0 1.7rem 1.7rem;
+        margin-bottom: 0.5rem;
+        height: 11.5rem;
     
 }
 .dibba4{
-    width: 35rem;
-    padding: 1.7rem 0 1.7rem 1.7rem;
-    height: 12.5rem;
+    width: 33rem;
+        padding: 1.7rem 0 1.7rem 1.7rem;
+        height: 11.5rem;
         
     }
     .dibba-content{
@@ -902,7 +917,7 @@ background-size: contain;
         /* border: 2px solid green; */
         /* display: grid; */
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0rem 1fr 1fr 1fr;
+        grid-template-rows: 0rem 29rem 14rem 14rem;
     }
 
 
