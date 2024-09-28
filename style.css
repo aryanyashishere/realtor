@@ -792,7 +792,13 @@ background-size: contain;
         height: 100vh;
         
     }
-    
+    .explore-section-heading{
+        margin: 0 2rem 0 2rem;
+    }
+    .explore-section-para{
+        margin: 0 2rem 0 2rem;
+
+    }
 .explore-section-heading p{
     text-align: left;
     font-size: 2rem;
