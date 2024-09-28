@@ -900,6 +900,12 @@ background-size: contain;
         grid-column-start: 1;
         grid-column-end: 3;
     }
+    .box-content{
+        display: none;
+    }
+    .box1-content{
+        display: none;
+    }
     
 
 }
