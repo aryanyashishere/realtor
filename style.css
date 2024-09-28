@@ -480,8 +480,8 @@ background-size: contain;
     right: 0;
     padding: 1rem;
     /* z-index: 1; */
-    background: rgba(0, 0, 0, 0.5); 
-   /* background: linear-gradient(0deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0) 93%); */
+    /* background: rgba(0, 0, 0, 0.5);  */
+   background: linear-gradient(0deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0) 93%);
 
 }
 .box-heading{
@@ -792,7 +792,7 @@ background-size: contain;
     /* explore section  */
     .explore-section{
         background-color: rgba(48,80,105,1);
-        padding: 0 0 0 0.5rem;
+        padding: 0 2rem 0 2rem;
         height: 100vh;
         
     }
@@ -893,7 +893,7 @@ background-size: contain;
     /* image grid explore sections starts */
     .explore-section-grid-image-gallery-1{
         background-color: rgba(48,80,105,1);
-        padding: 0 0 0 0.5rem;
+        padding: 0 2rem 0  2rem;
         height: 100vh;
     }
     .gallery-grid-container{
