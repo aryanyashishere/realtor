@@ -365,6 +365,27 @@ background-size: contain;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* image grid explore section starts  */
 .neighbour{
     font-size: 2.5rem;
@@ -500,6 +521,23 @@ background-size: contain;
 
 /* e-xplore image grid sections ends */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* carousel sections starts  */
 .slider-upper-text{
     font-size: 2.5rem;
@@ -594,7 +632,7 @@ background-size: contain;
     font-family: "Montserrat", cursive;
     line-height: 2rem;
 }
-
+/* carousel sections ends  */
 
 
 
@@ -740,10 +778,19 @@ background-size: contain;
     /* hero section media queries end */
 
 
+
+
+
+
+
+
+
     /* explore section  */
     .explore-section{
         background-color: rgba(48,80,105,1);
         padding: 0 0 0 0.5rem;
+        height: 100vh;
+        
     }
     
 .explore-section-heading p{
@@ -823,7 +870,36 @@ background-size: contain;
         font-weight: 500;
         width: 21rem;
     }
-    
+
+    /* explore section ends  */
+
+
+
+
+
+
+
+
+    /* image grid explore sections starts */
+    .explore-section-grid-image-gallery-1{
+        background-color: rgba(48,80,105,1);
+        padding: 0 0 0 0.5rem;
+        height: 100vh;
+    }
+    .gallery-grid-container{
+        height: 65rem;
+        
+        /* border: 2px solid green; */
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0rem 1fr 1fr 1fr;
+    }
+
+
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
     
 
 }
