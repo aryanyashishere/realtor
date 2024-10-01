@@ -1029,6 +1029,9 @@ footer {
 .footer-sign {
 font-size: 2rem;
 }
+.bottom-of-sign{
+    font-size: 1.3rem;
+}
 
 .footer-social a {
     color: #333;
