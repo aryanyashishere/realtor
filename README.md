@@ -10,7 +10,9 @@ A fully responsive real estate website inspired by [Homes.com](https://www.homes
 ---
 
 ## 📸 Preview
-
+![Preview](./preview_imgs/i1.PNG)
+![Preview](./preview_imgs/i2.PNG)
+![Preview](./preview_imgs/i3.PNG)
 
 
 ---
