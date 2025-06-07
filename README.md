@@ -4,7 +4,7 @@ A fully responsive real estate website inspired by [Homes.com](https://www.homes
 
 ## 🔥 Live Demo
 
-👉 [Click Here to Visit the Live Site](www.aryanyashishere.github.com/realtor)  
+👉 [Click Here to Visit the Live Site](www.aryanyashishere.github.io/realtor)  
 
 
 ---
